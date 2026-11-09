@@ -1,0 +1,47 @@
+{
+  "name": "pwd-week8-client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@tanstack/react-query": "5.87.4",
+    "axios": "1.12.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-hook-form": "7.62.0",
+    "react-icons": "5.5.0",
+    "react-router-dom": "7.9.1",
+    "react-spinners": "0.17.0",
+    "react-toastify": "11.0.5",
+    "@supabase/supabase-js": "2.118.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.35.0",
+    "@types/node": "24.19.2",
+    "@types/react": "19.1.13",
+    "@types/react-dom": "19.1.9",
+    "@vitejs/plugin-react-swc": "4.0.1",
+    "eslint": "9.35.0",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-refresh": "0.4.20",
+    "globals": "16.4.0",
+    "jiti": "2.7.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.1",
+    "vite": "7.1.5",
+    "tsx": "4.23.0"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
